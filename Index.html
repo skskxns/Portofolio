@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Pribadi - Modern</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">✦ Portofolio</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#experience">Pengalaman</a></li>
+                <li><a href="#hobbies">Hobi</a></li>
+                <li><a href="#media">Media</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <h1>Portofolio Pribadi</h1>
+            <div class="profile-wrapper">
+                <img src="Assets/Image/profile.png" alt="Gambar Profil">
+            </div>
+        </section>
+
+        <!-- Tentang Saya -->
+        <section id="about">
+            <h2>Tentang Saya</h2>
+            <div class="card">
+                <p style="font-size: 1.2rem; text-align: center; line-height: 1.8;">
+                    Selamat datang di portofolio saya! Saya adalah seorang <strong style="color: var(--primary)">Web Developer</strong> yang sangat dedicated dalam menciptakan pengalaman digital yang menakjubkan.
+                </p>
+            </div>
+            <blockquote>
+                Kreativitas berasal dari percaya. Percaya pada insting yang memandu arah dan tujuan hidup
+            </blockquote>
+        </section>
+
+        <!-- Pengalaman Kerja -->
+        <section id="experience">
+            <h2>Pengalaman Kerja</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th><i class="fas fa-briefcase"></i> Posisi</th>
+                        <th><i class="fas fa-building"></i> Perusahaan</th>
+                        <th><i class="fas fa-calendar"></i> Tahun</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Web Developer</td>
+                        <td>Alam Indah</td>
+                        <td>2020-2023</td>
+                    </tr>
+                    <tr>
+                        <td>Junior Developer</td>
+                        <td>Pantai Samudera</td>
+                        <td>2018-2020</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Hobi -->
+        <section id="hobbies">
+            <h2>Hobi Saya</h2>
+            <div class="card">
+                <h3 style="margin-bottom: 1.5rem; color: var(--primary);">
+                    <i class="fas fa-heart"></i> Aktivitas Favorit
+                </h3>
+                <ul>
+                    <li>Musik</li>
+                    <li>Olahraga</li>
+                    <li>Fotografi</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3 style="margin-bottom: 1.5rem; color: var(--secondary);">
+                    <i class="fas fa-star"></i> Prioritas Pengembangan
+                </h3>
+                <ol>
+                    <li>Belajar Bahasa Asing</li>
+                    <li>Menulis Blog</li>
+                    <li>Membuat Program</li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- Media Section -->
+        <section id="media">
+            <h2>Media Favorit</h2>
+            
+            <div class="card">
+                <h3 style="text-align: center; margin-bottom: 1.5rem; color: var(--primary);">
+                    <i class="fas fa-music"></i> Lagu Favorit
+                </h3>
+                <div class="media-container">
+                    <audio controls>
+                        <source src="Assets/mp3/heavenAndBack.mp4" type="audio/mpeg">
+                        Browser Anda tidak mendukung pemutar audio.
+                    </audio>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3 style="text-align: center; margin-bottom: 1.5rem; color: var(--secondary);">
+                    <i class="fas fa-video"></i> Video Karya
+                </h3>
+                <div class="media-container">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Media -->
+        <section id="contact">
+            <h2>Ikuti Saya</h2>
+            <div class="social-links">
+                <a href="https://www.instagram.com/username" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                    Instagram
+                </a>
+                <a href="https://www.linkedin.com/in/username" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                    LinkedIn
+                </a>
+                <a href="https://github.com/skskxns" target="_blank">
+                    <i class="fab fa-github"></i>
+                    GitHub
+                </a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p><i class="fas fa-heart" style="color: var(--secondary);"></i> © 2024 Portofolio Pribadi. Semua hak dilindungi.</p>
+        </footer>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <div class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script src="Script.js"></script>
+</body>
+</html>
